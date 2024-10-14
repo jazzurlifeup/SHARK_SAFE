@@ -2,7 +2,7 @@
 
 require_once 'config.php';
 
-echo "Hello, beni!";
+echo "Hello, shark";
 
 
 ?>

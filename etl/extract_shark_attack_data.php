@@ -1,6 +1,6 @@
 <?php
 
-function fetchWeatherData() {
+function fetchSharkAttackData() {
     $url = "https://public.opendatasoft.com/explore/dataset/global-shark-attack/table/?disjunctive.country&disjunctive.area&disjunctive.activity";
 
     // Initialisiert eine cURL-Sitzung
@@ -20,5 +20,6 @@ function fetchWeatherData() {
 }
 
 // Gibt die Daten zurück, wenn dieses Skript eingebunden ist
-return fetchWeatherData();
+return fetchSharkAttackData();
 ?>
+
